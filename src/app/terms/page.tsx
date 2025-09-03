@@ -16,7 +16,7 @@ export default function TermsOfService() {
             <Link href="/">
               <Button variant="ghost" className="mb-4">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Home
+                Back
               </Button>
             </Link>
             <h1 className="text-4xl font-bold mb-2">Terms of Service</h1>

@@ -13,12 +13,10 @@ export default function Page() {
     <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
-      <div id="features">
-        <FeatureHighlights />
-      </div>
-      <div id="screenshots">
+      <FeatureHighlights />
+      {/* <div >
         <AppScreenshotGallery />
-      </div>
+      </div> */}
       <DownloadSection />
       <FAQ />
       <Footer />

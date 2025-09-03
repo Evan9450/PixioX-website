@@ -3,10 +3,10 @@
 import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { ArrowLeft, Mail, MessageSquare, Phone, MapPin } from "lucide-react";
+// import { Input } from "@/components/ui/input";
+// import { Textarea } from "@/components/ui/textarea";
+// import { Label } from "@/components/ui/label";
+import { ArrowLeft, Mail, MessageSquare, Hourglass, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export default function ContactUs() {
@@ -34,12 +34,12 @@ export default function ContactUs() {
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="mb-6">
             <Link href="/">
               <Button variant="ghost" className="mb-4">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Home
+                Back
               </Button>
             </Link>
             <h1 className="text-4xl font-bold mb-2">Contact Us</h1>
@@ -49,7 +49,7 @@ export default function ContactUs() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1">
             {/* Contact Information */}
             <div className="lg:col-span-1 space-y-6">
               <Card>
@@ -61,11 +61,11 @@ export default function ContactUs() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-2">
-                    General inquiries:
+                    Inquiries:
                   </p>
                   <p className="font-medium">hello@pixiox.com</p>
-                  <p className="text-muted-foreground mb-2 mt-4">Support:</p>
-                  <p className="font-medium">support@pixiox.com</p>
+                  {/* <p className="text-muted-foreground mb-2 mt-4">Support:</p>
+                  <p className="font-medium">support@pixiox.com</p> */}
                 </CardContent>
               </Card>
 
@@ -84,10 +84,10 @@ export default function ContactUs() {
                 </CardContent>
               </Card>
 
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <Phone className="mr-2 h-5 w-5" />
+                    <Hourglass className="mr-2 h-5 w-5" />
                     Business Hours
                   </CardTitle>
                 </CardHeader>
@@ -98,9 +98,9 @@ export default function ContactUs() {
                     <p>Sunday: Closed</p>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <MapPin className="mr-2 h-5 w-5" />
@@ -114,12 +114,12 @@ export default function ContactUs() {
                     United States
                   </p>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
 
             {/* Contact Form */}
             <div className="lg:col-span-2">
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle>Send us a Message</CardTitle>
                 </CardHeader>
@@ -181,10 +181,10 @@ export default function ContactUs() {
                     </Button>
                   </form>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* FAQ Section */}
-              <Card className="mt-8">
+              {/* <Card className="mt-8">
                 <CardHeader>
                   <CardTitle>Frequently Asked Questions</CardTitle>
                 </CardHeader>
@@ -220,7 +220,7 @@ export default function ContactUs() {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </div>

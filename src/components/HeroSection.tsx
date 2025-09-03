@@ -17,14 +17,14 @@ export default function HeroSection({
   ctaText = "Download Now",
 }: HeroSectionProps) {
   return (
-    <section className="relative w-full min-h-[800px] bg-gradient-to-b from-background to-background/80 flex items-center justify-center px-4 md:px-6 lg:px-8 overflow-hidden">
+    <section className="relative w-full min-h-[800px] bg-gradient-to-b from-background to-background/80 flex items-center justify-center px-4 md:px-6 lg:px-8 overflow-hidden pt-20">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 z-10">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 z-10 pb-10">
         {/* Text content */}
         <div className="flex flex-col space-y-6 max-w-xl text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
@@ -35,9 +35,6 @@ export default function HeroSection({
             <Button size="lg" className="gap-2 text-md">
               {ctaText}
               <ArrowRight className="h-4 w-4" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-md">
-              Learn More
             </Button>
           </div>
         </div>
@@ -54,7 +51,7 @@ export default function HeroSection({
               {/* App screenshot */}
               <div className="relative h-full w-full bg-gray-50">
                 <Image
-                  src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=500&q=80"
+                  src="/mainPage.jpg"
                   alt="PixioX App Interface"
                   fill
                   className="object-cover"
@@ -62,7 +59,7 @@ export default function HeroSection({
                 />
 
                 {/* App UI overlay elements */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent">
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent">
                   <div className="absolute bottom-8 left-4 right-4">
                     <h3 className="text-white text-lg font-medium mb-2">
                       Monthly Collections
@@ -84,12 +81,12 @@ export default function HeroSection({
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
             {/* Floating feature highlight */}
-            <div className="absolute -right-4 top-1/4 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-200 dark:bg-gray-800/90 dark:border-gray-700">
+            <div className="absolute -right-4 bottom-1/3 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-200 dark:bg-gray-800/90 dark:border-gray-700">
               <div className="flex items-center gap-3">
                 <div className="bg-primary/20 p-2 rounded-full">
                   <svg
@@ -116,7 +113,7 @@ export default function HeroSection({
               </div>
             </div>
 
-            <div className="absolute -left-4 bottom-1/4 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-200 dark:bg-gray-800/90 dark:border-gray-700">
+            <div className="absolute -left-4 top-1/4 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-gray-200 dark:bg-gray-800/90 dark:border-gray-700">
               <div className="flex items-center gap-3">
                 <div className="bg-blue-500/20 p-2 rounded-full">
                   <svg

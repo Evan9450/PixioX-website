@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
             <Link href="/">
               <Button variant="ghost" className="mb-4">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Home
+                Back
               </Button>
             </Link>
             <h1 className="text-4xl font-bold mb-2">Privacy Policy</h1>
@@ -65,11 +65,11 @@ export default function PrivacyPolicy() {
                     photo library only to provide organization and browsing
                     features. All processing happens locally on your device.
                   </p>
-                  <p>
+                  {/* <p>
                     <strong>App Usage:</strong> We may collect anonymous usage
                     statistics to improve the app experience, but this data
                     cannot be linked to your identity.
-                  </p>
+                  </p> */}
                   <p>
                     <strong>Device Information:</strong> Basic device
                     information (iOS version, device model) may be collected for
@@ -200,7 +200,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   If you have any questions about this Privacy Policy, please
-                  contact us at privacy@pixiox.com or visit our Contact page.
+                   visit our Contact page.
                 </p>
               </section>
             </CardContent>

@@ -18,33 +18,39 @@ export default function FAQ() {
     {
       question: "What devices are compatible with PixioX?",
       answer:
-        "PixioX is compatible with iOS 14.0 and later, optimized for both iPhone and iPad. The app works seamlessly across all modern iOS devices.",
+        "PixioX is compatible with iOS 15.0 and later, optimized for both iPhone and iPad. The app works seamlessly across all modern iOS devices.",
+    },
+    // {
+    //   question: "Does PixioX support iCloud synchronization?",
+    //   answer:
+    //     "Yes! PixioX fully supports iCloud sync, ensuring your photo organization and collections are automatically synchronized across all your Apple devices.",
+    // },
+    {
+      question: "What gesture controls does PixioX support?",
+      answer:
+        "PixioX makes photo browsing effortless with intuitive gestures: swipe left or right to navigate between photos, swipe up to send a photo to trash, tap the Favorites button to favorite or unfavorite, and tap Share to quickly share your photo. These natural interactions remove the need for complex menus.",
     },
     {
-      question: "Does PixioX support iCloud synchronization?",
+      question: "Does PixioX support Live Photos?",
       answer:
-        "Yes! PixioX fully supports iCloud sync, ensuring your photo organization and collections are automatically synchronized across all your Apple devices.",
+        "Yes! PixioX fully supports Live Photos with native playback. A Live Photo badge helps you identify them, and playback controls let you relive your moments with motion and sound.",
     },
     {
-      question: "How does the gesture-based deletion work?",
+      question: "How does monthly photo organization work?",
       answer:
-        "PixioX features intuitive gesture controls including swipe-to-delete, pinch-to-zoom, and natural hand-follow gestures for seamless photo management without complex menus.",
+        "PixioX automatically organizes your photos by month and displays them in color-coded cards. Each card includes previews and statistics, making it easy to explore and manage your memories month by month.",
     },
     {
-      question: "Can I organize photos into custom collections?",
+      question: "Can I restore photos after deleting them?",
       answer:
-        "Absolutely! PixioX automatically creates smart monthly collections with color coding, and you can also create custom albums and add tags to organize your photos exactly how you want.",
+        "Yes. PixioX includes a confirmation step and a restore option for deleted photos, giving you control and peace of mind when managing your library.",
     },
-    {
-      question: "Does PixioX work with Live Photos?",
-      answer:
-        "Yes, PixioX has full native Live Photo support with smooth playback and intuitive indicators, preserving the dynamic nature of your Live Photos.",
-    },
-    {
-      question: "Is there a subscription fee for PixioX?",
-      answer:
-        "PixioX offers a one-time purchase with free updates for life. No recurring subscriptions or hidden fees - just a powerful photo management experience.",
-    },
+
+    // {
+    //   question: "Is there a subscription fee for PixioX?",
+    //   answer:
+    //     "PixioX offers a one-time purchase with free updates for life. No recurring subscriptions or hidden fees - just a powerful photo management experience.",
+    // },
   ];
 
   return (

@@ -3,6 +3,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { Apple, Check } from "lucide-react";
+import Image from "next/image";
 
 interface DownloadSectionProps {
   title?: string;
@@ -16,14 +17,14 @@ export default function DownloadSection({
   description = "Start organizing your photos smarter, not harder. Download PixioX and rediscover your memories with ease.",
   appStoreLink = "https://apps.apple.com/app/pixiox",
   compatibilityInfo = [
-    "Compatible with iOS 14.0 and later",
+    "Compatible with iOS 15.0 and later",
     "Optimized for iPhone and iPad",
     "iCloud sync supported",
     "Free updates for life",
   ],
 }: DownloadSectionProps) {
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-background to-secondary/20">
+    <section id="download" className="w-full py-20 bg-gradient-to-b from-background to-secondary/20">
       <div className="container max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
@@ -54,9 +55,11 @@ export default function DownloadSection({
           <div className="mt-16 flex items-center justify-center">
             <div className="relative">
               <div className="absolute -top-6 -left-6 w-12 h-12 rounded-full bg-primary/10 animate-pulse"></div>
-              <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=pixiox"
+              <Image
+                src="/appstore1024.png"
                 alt="PixioX Logo"
+                width={64}
+                height={64}
                 className="h-16 w-16 rounded-full border-2 border-primary"
               />
               <div className="absolute -bottom-6 -right-6 w-12 h-12 rounded-full bg-primary/10 animate-pulse delay-300"></div>

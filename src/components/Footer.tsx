@@ -2,20 +2,23 @@
 
 import React from "react";
 import { Separator } from "@/components/ui/separator";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-secondary/20 border-t">
+    <footer className="w-full bg-white border-t">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=pixiox"
+              <Image
+                src="/appstore1024.png"
                 alt="PixioX Logo"
+                width={32}
+                height={32}
                 className="h-8 w-8 rounded-full"
               />
               <span className="text-xl font-bold">PixioX</span>
