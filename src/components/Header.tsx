@@ -100,11 +100,11 @@ export default function Header() {
                   Features
                 </a>
                 <a
-                  href="/#screenshots"
+                  href="/#download"
                   className="block text-lg font-medium hover:text-primary transition-colors py-2"
                   onClick={closeMenu}
                 >
-                  Screenshots
+                  Download
                 </a>
                 <a
                   href="/#faq"
