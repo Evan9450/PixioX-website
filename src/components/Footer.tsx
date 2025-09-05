@@ -44,10 +44,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#screenshots"
+                  href="#download"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Screenshots
+                  Download
                 </a>
               </li>
               <li>
