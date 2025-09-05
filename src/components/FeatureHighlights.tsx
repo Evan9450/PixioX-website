@@ -36,7 +36,7 @@ export default function FeatureHighlights() {
       icon: <HandMetal className="h-8 w-8" />,
       title: "Gesture-Based Controls",
       description:
-        "Intuitively manage your photos with natural swipe, pinch, and follow-hand deletion gestures.",
+        "Intuitively manage your photos with natural swipe, and follow-hand deletion gestures.",
     },
     {
       icon: <FolderTree className="h-8 w-8" />,
