@@ -38,21 +38,35 @@ export default function DownloadSection({
 					</p>
 
 					<div className='mb-10'>
-						<button className='relative border-2 border-black inline-flex items-center justify-center whitespace-nowrap rounded-lg disabled:pointer-events-none disabled:opacity-50 overflow-hidden transition-[color,background-color,border-color,opacity] after:absolute after:inset-0 motion-reduce:transition-none style_default__4akO1 style_textShadow__jRTCI bg-brand-black text-brand-white after:bg-gradient-to-t after:from-brand-neutrals-800 after:to-brand-neutrals-600 dark:after:from-brand-neutrals-100 dark:after:to-brand-neutrals-100 before:bg-[radial-gradient(circle_100px_at_var(--mask-x)_var(--mask-y),_var(--tw-gradient-stops))] before:from-brand-neutrals-700 before:via-brand-neutrals-700 before:to-transparent dark:before:from-brand-neutrals-300 after:transition-[color,background-color,border-color,opacity] after:duration-300 before:transition-opacity before:duration-1000 hover:before:opacity-100 before:opacity-0 before:absolute before:inset-0 md:px-4 md:py-3.5 font-medium text-sm/[1.125rem] tracking-normal'>
-							<span className='relative z-10 flex'>
-								<span className='flex items-center gap-3'>
-									<svg
-										className='w-3 -translate-y-px overflow-visible md:w-3.5'
-										fill='none'
-										viewBox='0 0 14 18'
-										xmlns='http://www.w3.org/2000/svg'
-										aria-hidden='true'>
-										<path
-											d='M13.5545 6.1362c-.0997.081-1.8609 1.1196-1.8609 3.429 0 2.6712 2.241 3.6162 2.3081 3.6396-.0103.0576-.356 1.2942-1.1816 2.5542-.7361 1.1088-1.5049 2.2158-2.6744 2.2158-1.16953 0-1.47052-.711-2.82064-.711-1.31572 0-1.78354.7344-2.85332.7344-1.06977 0-1.81621-1.026-2.67444-2.286C.8032 14.2326 0 11.934 0 9.7524c0-3.4992 2.17396-5.355 4.31351-5.355 1.13686 0 2.08452.7812 2.79828.7812.67936 0 1.73882-.828 3.03221-.828.4902 0 2.2513.0468 3.4105 1.7856Zm-4.02453-3.267c.53493-.6642.91323-1.5858.91323-2.5074 0-.1278-.0103-.2574-.0326-.3618-.87031.0342-1.90569.6066-2.53001 1.3644-.49017.5832-.94767 1.5048-.94767 2.439 0 .1404.02236.2808.03268.3258.05504.0108.14447.0234.23391.0234.78083 0 1.7629-.5472 2.33046-1.2834Z'
-											fill='currentColor'></path>
-									</svg>{' '}
-									Download
-								</span>
+						<button
+							className='
+									relative inline-flex items-center justify-center
+									rounded-lg font-medium text-sm tracking-normal
+									px-4 py-3
+									bg-brand-black text-brand-white
+									border border-black
+									transition-colors
+									overflow-hidden
+									disabled:pointer-events-none disabled:opacity-50
+
+									before:absolute before:inset-0
+									before:bg-[radial-gradient(circle_120px_at_var(--mask-x)_var(--mask-y),rgba(255,255,255,0.2),transparent)]
+									before:opacity-0 before:transition-opacity before:duration-700
+									hover:before:opacity-100
+								'>
+							<span className='relative z-10 flex items-center gap-2'>
+								<svg
+									className='w-4 h-4'
+									fill='none'
+									viewBox='0 0 14 18'
+									xmlns='http://www.w3.org/2000/svg'
+									aria-hidden='true'>
+									<path
+										d='M13.5545 6.1362c-.0997.081-1.8609 1.1196-1.8609 3.429 0 2.6712 2.241 3.6162 2.3081 3.6396-.0103.0576-.356 1.2942-1.1816 2.5542-.7361 1.1088-1.5049 2.2158-2.6744 2.2158-1.16953 0-1.47052-.711-2.82064-.711-1.31572 0-1.78354.7344-2.85332.7344-1.06977 0-1.81621-1.026-2.67444-2.286C.8032 14.2326 0 11.934 0 9.7524c0-3.4992 2.17396-5.355 4.31351-5.355 1.13686 0 2.08452.7812 2.79828.7812.67936 0 1.73882-.828 3.03221-.828.4902 0 2.2513.0468 3.4105 1.7856Zm-4.02453-3.267c.53493-.6642.91323-1.5858.91323-2.5074 0-.1278-.0103-.2574-.0326-.3618-.87031.0342-1.90569.6066-2.53001 1.3644-.49017.5832-.94767 1.5048-.94767 2.439 0 .1404.02236.2808.03268.3258.05504.0108.14447.0234.23391.0234.78083 0 1.7629-.5472 2.33046-1.2834Z'
+										fill='currentColor'
+									/>
+								</svg>
+								Download
 							</span>
 						</button>
 					</div>
