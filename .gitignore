@@ -50,3 +50,7 @@ node_modules/
 .git
 
 .github/
+
+# .prettierignore
+.prettierrc.js
+
