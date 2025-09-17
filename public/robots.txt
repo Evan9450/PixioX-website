@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://pixiox.co
-
-# Sitemaps
-Sitemap: https://pixiox.co/sitemap.xml
