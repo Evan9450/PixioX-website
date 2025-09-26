@@ -1,11 +1,12 @@
 "use client";
 
-import React from "react";
+import { ArrowLeft, Eye, Lock, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Shield, Eye, Lock } from "lucide-react";
 import Link from "next/link";
+import React from "react";
+import { Separator } from "@/components/ui/separator";
 
 export default function PrivacyPolicy() {
   return (
@@ -20,7 +21,7 @@ export default function PrivacyPolicy() {
               </Button>
             </Link>
             <h1 className="text-4xl font-bold mb-2">Privacy Policy</h1>
-            <p className="text-muted-foreground">Last updated: December 2024</p>
+            <p className="text-muted-foreground">Last updated: Sep 2025</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -166,19 +167,6 @@ export default function PrivacyPolicy() {
                     </li>
                   </ul>
                 </div>
-              </section>
-
-              <Separator />
-
-              <section>
-                <h2 className="text-2xl font-semibold mb-4">
-                  Children's Privacy
-                </h2>
-                <p className="text-muted-foreground leading-relaxed">
-                  PixioX does not knowingly collect personal information from
-                  children under 13. If you believe a child has provided
-                  personal information, please contact us immediately.
-                </p>
               </section>
 
               <Separator />

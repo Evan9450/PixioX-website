@@ -1,11 +1,12 @@
 "use client";
 
-import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
+
 import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import React from "react";
+import { Separator } from "@/components/ui/separator";
 
 export default function TermsOfService() {
   return (
@@ -20,7 +21,7 @@ export default function TermsOfService() {
               </Button>
             </Link>
             <h1 className="text-4xl font-bold mb-2">Terms of Service</h1>
-            <p className="text-muted-foreground">Last updated: December 2024</p>
+            <p className="text-muted-foreground">Last updated: Sep 2025</p>
           </div>
 
           <Card>
@@ -139,7 +140,7 @@ export default function TermsOfService() {
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
                   If you have questions about these Terms of Service, please
-                  contact us at legal@pixiox.com or visit our Contact page.
+                  contact us at help@pixiox.com or visit our Contact page.
                 </p>
               </section>
             </CardContent>
