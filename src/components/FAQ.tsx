@@ -1,12 +1,13 @@
 "use client";
 
-import React from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+
+import React from "react";
 
 interface FAQItem {
   question: string;
@@ -18,7 +19,7 @@ export default function FAQ() {
     {
       question: "What devices are compatible with PixioX?",
       answer:
-        "PixioX is compatible with iOS 15.0 and later, optimized for both iPhone and iPad. The app works seamlessly across all modern iOS devices.",
+        "PixioX is compatible with iOS 17.0 and later, optimized for both iPhone and iPad. The app works seamlessly across all modern iOS devices.",
     },
     // {
     //   question: "Does PixioX support iCloud synchronization?",

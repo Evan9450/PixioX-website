@@ -18,7 +18,7 @@ export default function DownloadSection({
 	description = 'Start organizing your photos smarter, not harder. Download PixioX and rediscover your memories with ease.',
 	appStoreLink = 'https://apps.apple.com/app/pixiox',
 	compatibilityInfo = [
-		'Compatible with iOS 15.0 and later',
+		'Compatible with iOS 17.0 and later',
 		'Optimized for iPhone and iPad',
 		'iCloud sync supported',
 		'Free updates for life',
