@@ -3,13 +3,7 @@
 // import { Input } from "@/components/ui/input";
 // import { Textarea } from "@/components/ui/textarea";
 // import { Label } from "@/components/ui/label";
-import {
-	ArrowLeft,
-	Hourglass,
-	Mail,
-	MapPin,
-	MessageSquare,
-} from 'lucide-react';
+import { ArrowLeft, Hourglass, Mail, MapPin, MessageSquare } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import React, { useState } from 'react';
 
@@ -24,9 +18,7 @@ export default function ContactUs() {
 		message: '',
 	});
 
-	const handleInputChange = (
-		e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-	) => {
+	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 		const { name, value } = e.target;
 		setFormData((prev) => ({ ...prev, [name]: value }));
 	};
@@ -39,40 +31,35 @@ export default function ContactUs() {
 	};
 
 	return (
-		<div className='min-h-screen bg-background'>
-			<div className='container mx-auto px-4 py-8'>
-				<div className='max-w-4xl mx-auto'>
-					<div className='mb-6'>
-						<Link href='/'>
-							<Button variant='ghost' className='mb-4'>
-								<ArrowLeft className='mr-2 h-4 w-4' />
+		<div className="min-h-screen bg-background">
+			<div className="container mx-auto px-4 py-8">
+				<div className="max-w-4xl mx-auto">
+					<div className="mb-6">
+						<Link href="/">
+							<Button variant="ghost" className="mb-4">
+								<ArrowLeft className="mr-2 h-4 w-4" />
 								Back
 							</Button>
 						</Link>
-						<h1 className='text-4xl font-bold mb-2'>Contact Us</h1>
-						<p className='text-muted-foreground'>
-							We'd love to hear from you. Send us a message and
-							we'll respond as soon as possible.
+						<h1 className="text-4xl font-bold mb-2">Contact Us</h1>
+						<p className="text-muted-foreground">
+							We'd love to hear from you. Send us a message and we'll respond as soon as possible.
 						</p>
 					</div>
 
-					<div className='grid grid-cols-1'>
+					<div className="grid grid-cols-1">
 						{/* Contact Information */}
-						<div className='lg:col-span-1 space-y-6'>
+						<div className="lg:col-span-1 space-y-6">
 							<Card>
 								<CardHeader>
-									<CardTitle className='flex items-center'>
-										<Mail className='mr-2 h-5 w-5' />
+									<CardTitle className="flex items-center">
+										<Mail className="mr-2 h-5 w-5" />
 										Email Us
 									</CardTitle>
 								</CardHeader>
 								<CardContent>
-									<p className='text-muted-foreground mb-2'>
-										Inquiries:
-									</p>
-									<p className='font-medium'>
-										help@pixiox.com
-									</p>
+									<p className="text-muted-foreground mb-2">Inquiries:</p>
+									<p className="font-medium">help@pixiox.co</p>
 									{/* <p className="text-muted-foreground mb-2 mt-4">Support:</p>
                   <p className="font-medium">support@pixiox.com</p> */}
 								</CardContent>
@@ -80,15 +67,14 @@ export default function ContactUs() {
 
 							<Card>
 								<CardHeader>
-									<CardTitle className='flex items-center'>
-										<MessageSquare className='mr-2 h-5 w-5' />
+									<CardTitle className="flex items-center">
+										<MessageSquare className="mr-2 h-5 w-5" />
 										Response Time
 									</CardTitle>
 								</CardHeader>
 								<CardContent>
-									<p className='text-muted-foreground'>
-										We typically respond to all inquiries
-										within 24 hours during business days.
+									<p className="text-muted-foreground">
+										We typically respond to all inquiries within 24 hours during business days.
 									</p>
 								</CardContent>
 							</Card>
@@ -127,7 +113,7 @@ export default function ContactUs() {
 						</div>
 
 						{/* Contact Form */}
-						<div className='lg:col-span-2'>
+						<div className="lg:col-span-2">
 							{/* <Card>
                 <CardHeader>
                   <CardTitle>Send us a Message</CardTitle>
