@@ -58,6 +58,14 @@ export default function Footer() {
                   FAQ
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://downloader.pixiox.co/"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  PixioXDownloader
+                </a>
+              </li>
             </ul>
           </div>
 
